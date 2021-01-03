@@ -4,7 +4,7 @@ for i in range(5,0,-1):
     print("Kamil " + str(i))
 print()
 
-i = 1
-while i < 6:
+i = 5
+while 0 < i < 6:
     print("Kamil " + str(i))
-    i = i + 1
+    i = i -1
