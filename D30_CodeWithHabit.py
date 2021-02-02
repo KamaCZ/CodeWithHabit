@@ -47,7 +47,31 @@ def handle_turn(player):
     return
 
 def check_win():
+    row_winner = check_rows()
+    column_winner = check_columns()
+    diagonal_winner = check_diagonals()
+    if row_winner:
+        winner = row_winner
+    elif column_winner:
+        winner = column_winner
+    elif diagonal_winner:
+        winner = diagonal_winner
+    else:
+        winner = None
     return
+
+def check_rows():
+    
+    board
+    return
+
+
+def check_columns():
+    return
+
+def check_diagonals():
+    return
+
 
 def check_tie():
     return
