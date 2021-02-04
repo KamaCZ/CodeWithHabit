@@ -47,8 +47,21 @@ print("Bye Bye \n\n")
 print("Good afternoon \n")
 print("Good Bye")
 
+# Indexing and slicing of strings
 sentence = "Kamil Klemsa is the best Python Developer in the world" # Nooo I am not :) but working on that haha
 name = sentence[:12]
 profession = sentence[25:42]
 print(name)
 print(profession)
+# negative slicing
+profession = sentence[25:-13]
+print(profession)
+
+name = "Kama Klemsa"
+# getting last letter
+last = name[-1] # -1 means one index before index 0, which is the last letter of a string
+print(last)
+name_backwards = name[::-1] # last number "-1" means a leap, "-2" would mean that the program grabs any second letter
+print(name_backwards)
+
+
