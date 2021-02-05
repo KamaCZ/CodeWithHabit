@@ -21,11 +21,11 @@ weather = "Today is a {}".format("beautiful") + " weather"
 print(weather)
 
 
-# string formatting
+# string formatting - used to inject additional text into strings
 # Old versions: 
 # 1) string formatting with placeholders (%s)
 print("I am going to inject %s here and %s here." %("something", "as well"))
-# 2) string formatting with the ".format{}" method
+# 2) string formatting with the ".format()" method
 print("I am going to inject {0} here and {1} here.".format("something", "as well"))
 # New version from python 3.6:
 # Formatted string litterals (f-strings)
