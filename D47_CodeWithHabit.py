@@ -15,8 +15,14 @@ set = {1,100,2,200,3,300}
 for letter in string:
     print(letter * 3)
 
-for item in dictionary:
-    print(item)
+for k,v in dictionary.items():
+    print(k,v)
+
+for v in dictionary.values():
+    print(v)
+
+print(dictionary.keys())
+print(list(dictionary.keys()))
 
 for item in tuple:
     print(item / 2)
