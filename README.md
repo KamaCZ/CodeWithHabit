@@ -1,7 +1,9 @@
 # CodeWithHabit
 Every day a new 30min Python script added. 365 days in 2021, 365 scripts in 2021.
 This is a part of my coding habits creation.
-This project can serve other python developers / coding enthusiasts as a learning tool.
+This project can serve other python developers / coding enthusiasts as:
+1) a learning tool
+2) an inspiration to coding habits creation.
 
 D1: First Python program - simple chatting bot using print functions
 D2: Simple calculator
