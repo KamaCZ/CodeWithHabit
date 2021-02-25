@@ -1,3 +1,4 @@
+# write a programm that checks if the number is even
 # beginners usually write the code this way:
 def even_check(number):
     result = number % 2 == 0
