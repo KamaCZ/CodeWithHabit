@@ -59,6 +59,9 @@ def greet():
 
 greet()
 
-
+# Built-in function names
+# there are built-in funciton names, dont overwrite them
+# e.g. range, len, print etc.
 print(help(len))
+
 
