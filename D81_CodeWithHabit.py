@@ -16,6 +16,19 @@ print("x is still", x)
 # The Global statement
 # if you want to assign a global variable in the local scope (inside defining a function), you need to use the "global" statement
 
+x = 50
+
+def func():
+    global x
+    print(x)
+    x = 20
+
+print(x)
+func()
+print(x)
+
+
+
 # To check what are your global and local variables:
 #print(globals())
-print(locals())
+#print(locals())
