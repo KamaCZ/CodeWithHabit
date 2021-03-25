@@ -23,5 +23,7 @@ def myfunc(*args): # passing * args argument allows me to deal with it like a tu
 
 print(myfunc(40,60,200))
 
+# args can be any word, e.g. spam
+# args is passed a tuple
 def myfunc(*spam): # note: we can use any word after the *
     return sum(spam)
