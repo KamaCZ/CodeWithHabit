@@ -11,7 +11,7 @@ Hint: Look at the string module
 
 Hint: In case you want to use set comparisons
 """
-
+import string
 
 def pangrams(str1, alphabet=string.ascii_lowercase):
     # create a set of alphabet
