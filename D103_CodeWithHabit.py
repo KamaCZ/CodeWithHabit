@@ -87,6 +87,7 @@ while True:
     ### PLAYER ONE TURN
 
         else:
+            pass
 
     ### PLAYER TWO TURN
 
