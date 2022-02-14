@@ -9,6 +9,9 @@ Procedure:
 depanding on the the of the operator stored into the variable
 """
 
+# Calculator
+# Assignement: Create a calculator using if-else statements, user is required to enter two numbers and an operator
+
 num1 = float(input("Enter the first number: "))
 op = input("Enter the operator(+,-,*,/): ")
 num2 = float(input("Enter the second number: "))
